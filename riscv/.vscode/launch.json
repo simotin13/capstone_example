@@ -5,12 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-                "name": "(gdb) 起動",
+                "name": "riscv",
                 "type": "cppdbg",
                 "request": "launch",
                 "program": "${workspaceFolder}/example_riscv",
                 "args": [],
-                "stopAtEntry": false,
+                "stopAtEntry": true,
                 "cwd": "${fileDirname}",
                 "environment": [],
                 "externalConsole": false,
